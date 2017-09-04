@@ -20,7 +20,7 @@ public class WindowHandles {
 		driver.get("http://toolsqa.wpengine.com/automation-practice-switch-windows/");
 		 //driver.manage().window().maximize();
 		String mainwindow = driver.getWindowHandle();
-		System.out.println("Main window name : "+mainwindow);
+		System.out.println("Main window name: "+mainwindow);
 		driver.findElement(By.xpath("//*[text()='New Message Window']"))
 				.click();
 		
