@@ -12,7 +12,7 @@ public class WindowHandles {
 
 	public static void main(String[] args) {
 		ChromeOptions chromeOp = new ChromeOptions();
-		chromeOp.addArguments("disable-infobars");
+		//chromeOp.addArguments("disable-infobars");
 		System.setProperty("webdriver.chrome.driver",
 				"D:\\Selenium_drivers\\chromedriver_win32\\chromedriver.exe");
 
